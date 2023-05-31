@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initializeApp } from 'firebase/app';
+ // Assuming the Firebase configuration is stored in a separate file called firebase.js
+
+// Initialize Firebase
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
